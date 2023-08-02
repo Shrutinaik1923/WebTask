@@ -1,0 +1,17 @@
+.h1Css{
+    background-color: blue;
+}
+#byeID{
+    background-color: aqua;
+}
+.btClass{
+    color: darkblue;
+    background-color: burlywood;
+    border-radius: 5vh;
+}
+.formName{
+    background-color: burlywood;
+    margin-left: 30vh;
+    width: 50vh;
+    border: 1px solid;
+}

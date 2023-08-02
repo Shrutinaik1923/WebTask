@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Creating</title>
+        <link rel="stylesheet" href="new.css">
+        <script src="new.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Registration Form</h1>
+            <hr>
+        </div> 
+        <form class="formName">
+            <div id="IDname">
+                Name:  <span style="color: red;">*</span><input type="text" name="Name" required>
+
+            </div>
+            <br>
+            <div id="Emailid">
+                EmailId:<span style="color:red;">*</span><input type="email" name="Emailid" required>
+            </div>
+            <br>
+            <div id="CONTACT">
+                Contact:<span style="color:red;">*</span><input type="number" name="contact" required>
+            </div>
+            <br>
+            <div id="genderId">
+                Please select the genderId:
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="male" value="female">
+                <label for="female">Female</label>
+                <!--name should be same id should be unique -->
+                
+            </div>
+            <div id="shiftId">
+                <select>
+                    <option value="MorningShift">Morning</option>
+                    <option value="NightShift">Night</option>
+                </select>
+                <br>
+            </div>
+            <div id="technologyID">Select Technology:
+                <br>
+                <input type="checkbox" id="inp1"name="checkbox">Java</label>
+                <br>
+                <input type="checkbox" id="inp2"name="checkbox">Python</label>
+                <br>
+                <input type="checkbox" id="inp3"name="checkbox">sql</label>
+                <br>
+                Date:<input type="datetime-local">
+
+            </div>
+            <button class="btClass"type="submit">Submit</button>
+            <button class="btClass"type="cancel">Cancel</button>
+        </form>
+
+        
+        </div>
+    </body>
+</html>
