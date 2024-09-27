@@ -1,0 +1,12 @@
+h1{
+    color: cadetblue;
+}//element selector/
+
+<!--id selector
+syntax: #id{
+    declarations;
+}-->>
+
+#ram{
+    color:aquamarine;
+}

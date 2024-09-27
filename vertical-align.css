@@ -1,0 +1,9 @@
+img.a {
+    vertical-align: baseline;
+ }
+ img.b{
+    vertical-align: text-bottom;
+ }
+ img.c{
+    vertical-align:text-top;
+ }
